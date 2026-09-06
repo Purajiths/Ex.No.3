@@ -1,166 +1,103 @@
-# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
+# Ex.No.3 - Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### DATE: 03-08-2026                                                                           
-### REGISTER NUMBER : 212223040158
+### REGISTER NUMBER :212223040158 
 
-## Aim: 
-To write the prompts for these following prompt types and evaluate that using any one method 
-1. Straightforward Prompts,
+### Aim:
+
+To write prompts for the following prompt types and evaluate them using a suitable use case:
+
+1. Straightforward Prompts
 2. Tabular Format Prompting
 3. Preceding Question Prompting
 4. Missing Word Prompting
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
+### Explanation:
 
+A suitable use case from Unit 5 is **Cybersecurity Awareness and Protection**. Different prompt engineering techniques are used to generate a scenario-based report on cybersecurity, demonstrating how the format and structure of a prompt can influence the generated response.
 
-## Procedure:
-1.	Straightforward Prompts:
-    - •	"Define photosynthesis in one sentence."
-    - 	"List three advantages of electric vehicles."
+### Procedure:
 
- 3.	Tabular Format Prompting:
-     •	"Compare and contrast AC and DC current in a table."
-     •	"Provide a table listing five programming languages, their paradigms, and one use case each."
-3. Preceding Question Prompting:
-    •	"Why is climate change a global concern? Explain how greenhouse gases contribute to global warming."
-    •	"How do vaccines work? Describe the process of immunization in simple terms."
-4. Missing Word Prompting:
-   •	"The capital of France is ____."
-  •	"In photosynthesis, plants absorb sunlight to produce ____."
+#### 1. Straightforward Prompts:
 
-## Use Case:
+A straightforward prompt directly asks the AI to provide the required information without specifying a complex format.
 
-* System: a mobile banking app
-* Primary Actor: customers who want to open an account
-* Secondary Actor: underwriters and automated tools calculating interest rates and maximum principal balances
-* Goals: save time on account registration and onboarding
-* Stakeholders: the CEO and product VP of the company
-* Preconditions: users download the app and meet account requirements
-* Trigger: the user chooses to create a new account from the app
+**Prompt:**
 
-## Straightforward Prompts
+"Explain the importance of cybersecurity awareness for college students in simple terms."
 
-Prompt 1:
+**Generated Report:**
 
-```
-Explain in one sentence how a new customer can start the registration process in the mobile banking app.
-```
+Cybersecurity awareness helps college students protect their personal information, passwords, devices, and online accounts from cyber threats. Students should use strong passwords, enable two-factor authentication, avoid suspicious links, keep software updated, and never share confidential information with unknown persons. Good cybersecurity practices reduce the risk of phishing, malware, identity theft, and unauthorized access.
 
-### Output:
-```
-A new customer can start registration by opening the app, tapping “Create Account,” and entering their personal details.
-```
+---
 
-Prompt 2:
+#### 2. Tabular Format Prompting:
 
-```
-List three benefits of online account opening through the app.
-```
+Tabular format prompting instructs the AI to organize information in a structured table.
 
-### Output:
-```
-– No need to visit a branch
+**Prompt:**
 
-– Quick approval process
+"Create a table showing five common cybersecurity threats, their meaning, possible impact, and one preventive measure for each."
 
-– Instant access to basic banking features
-```
+**Generated Report:**
 
-## Tabular Format Prompting
+| Cybersecurity Threat | Meaning                                                     | Possible Impact                   | Preventive Measure                       |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ---------------------------------------- |
+| Phishing             | Fake messages or websites designed to steal information     | Account or identity theft         | Verify links and senders before clicking |
+| Malware              | Malicious software designed to damage or access systems     | Data loss or system damage        | Use updated security software            |
+| Ransomware           | Malware that locks or encrypts data for payment             | Loss of access to important files | Maintain regular backups                 |
+| Password Attacks     | Attempts to obtain or guess passwords                       | Unauthorized account access       | Use strong and unique passwords          |
+| Social Engineering   | Manipulating people into revealing confidential information | Data theft or fraud               | Avoid sharing sensitive information      |
 
-Prompt 1:
+---
 
-```
-Create a table showing the differences between Basic, Premium and Student account types including minimum balance, monthly fee and benefits.
-```
+#### 3. Preceding Question Prompting:
 
-### Output:
+Preceding question prompting uses a question before the main instruction to provide context and guide the AI toward a more relevant response.
 
-```
-| Account Type | Minimum Balance | Monthly Fee | Benefits                                  |
-| ------------ | --------------- | ----------- | ----------------------------------------- |
-| Basic        | ₹1,000          | ₹0          | Free debit card, online banking           |
-| Premium      | ₹10,000         | ₹199        | Higher withdrawal limit, priority support |
-| Student      | ₹0              | ₹0          | No minimum balance, free transfers        |
-```
+**Prompt:**
 
-Prompt 2:
+"Why is cybersecurity important for college students? Explain how students can protect themselves from common cyber threats such as phishing, malware, and password attacks."
 
-```
-Provide a table comparing three verification methods (OTP, biometric, email link) used in the app during registration including speed and security.
-```
+**Generated Report:**
 
-### Output:
+Cybersecurity is important for college students because they frequently use computers, smartphones, college networks, online learning platforms, email, and digital payment services. These activities can expose students to cyber threats.
 
-```
-| Verification Method          | Speed                 | Security Level | Typical Use                     |
-| ---------------------------- | --------------------- | -------------- | ------------------------------- |
-| OTP (One-Time Password)      | Fast (within seconds) | Medium         | Mobile number verification      |
-| Biometric (Fingerprint/Face) | Instant               | High           | App login and sensitive actions |
-| Email Link                   | Moderate (1–2 min)    | Medium-High    | Confirming email address        |
-```
+Students can protect themselves by using strong and unique passwords, enabling two-factor authentication, avoiding suspicious emails and links, downloading applications only from trusted sources, keeping devices and software updated, and regularly backing up important files. Awareness and responsible online behavior can significantly reduce cybersecurity risks.
 
-## Preceding Question Prompting
+---
 
-Prompt 1:
+#### 4. Missing Word Prompting:
 
-```
-What documents does the user need to upload for KYC? Explain why these are necessary.
-```
+Missing word prompting provides an incomplete statement and asks the AI to identify or complete the missing information.
 
-### Output:
-```
-The user needs to upload a government-issued ID (like Aadhaar or passport) and a proof of address (like utility bill).
-These documents are necessary to comply with banking regulations and verify the customer’s identity to prevent fraud.
-```
+**Prompt:**
 
-Prompt 2:
+"Phishing is a cyber attack in which attackers use fake emails, messages, or websites to trick users into revealing sensitive information such as passwords and ______."
 
-```
-How can the app guide a first-time user through setting up a savings account? Describe the steps simply.
-```
+**Generated Report:**
 
-### Output:
-```
-The app can display a step-by-step wizard:
+The missing word is **"personal information"**.
 
-1. Welcome screen explains the process.
-2. Collect personal details like name and phone number.
-3. Prompt to upload ID and address proof.
-4. Offer account options (Basic, Premium, Student).
-5. Confirm details and complete verification.
-6. Show “Account Created” message with next steps.
-```
+Completed statement:
 
-## Missing Word Prompting
+"Phishing is a cyber attack in which attackers use fake emails, messages, or websites to trick users into revealing sensitive information such as passwords and personal information."
 
-Prompt 1:
+### Evaluation:
 
-```
-The minimum balance for a Premium account is ____.
-```
+The four prompting techniques were evaluated based on the **relevance, clarity, structure, and completeness** of the generated responses.
 
-### Output:
-```
-₹10,000.
-```
+| Prompt Type                  | Evaluation                                                      |
+| ---------------------------- | --------------------------------------------------------------- |
+| Straightforward Prompting    | Produced a simple and direct explanation                        |
+| Tabular Format Prompting     | Produced well-structured and easy-to-compare information        |
+| Preceding Question Prompting | Generated a contextual and detailed response                    |
+| Missing Word Prompting       | Successfully completed the missing information based on context |
 
-Prompt 2:
+### Conclusion:
 
-```
-To verify identity quickly, the app can use ____ authentication.
-```
+The experiment successfully demonstrated the use of **Straightforward Prompting, Tabular Format Prompting, Preceding Question Prompting, and Missing Word Prompting** for generating a scenario-based cybersecurity report. Each prompting technique produced responses in a different format according to the instructions provided.
 
-### Output:
-```
-Biometric authentication.
-```
+# Result:
 
-## Conclusion
-
-By applying Straightforward, Tabular Format, Preceding Question and Missing Word Prompting techniques to the mobile banking app use case, the AI produced clear, accurate and user-friendly outputs that would help design a smoother registration and onboarding process.
-
-
-## Result
-
-The various types of prompts were executed successfully.
+Thus, the various types of prompts were executed successfully and the required scenario-based report was generated using different prompt engineering techniques.
